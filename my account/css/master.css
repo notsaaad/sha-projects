@@ -1,0 +1,148 @@
+/* ================================== Start Global Rules =========================== */
+:root{
+  --main_color:#0046be ;
+  --white_color:#fff;
+  --black_color:#070707;
+  --hover_color:#2b5193;
+  --delay-time: 0.3ms;
+  --border-light-gray-color:#c5c0c0;
+  --bg-gray-section:#d7d7d766;
+}
+
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==== Start Disable Bootsrap Row === */
+/* .row{
+  --bs-gutter-x: none;
+} */
+/* ==== End Disable Bootsrap Row === */
+
+.fake-header{
+  height: 80px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid black;
+}
+
+.main{
+  min-height: calc(100vh - 240px);  /* 200px {80:header, 120:footer, 40:margin-up&down}*/
+  margin: 20px 0;
+}
+
+.fake-footer{
+  height: 120px;
+  background-color: #f7f7f7;
+  border-top: 1px solid black;
+}
+
+
+.main-btn{
+  color: var(--white_color);
+  background-color: var(--main_color);
+  font-weight: 800;
+  padding: 14px 30px;
+  text-transform: capitalize;
+  border-radius: 100px;
+  transition-delay: var(--delay-time)
+}
+
+.main-btn:hover{
+  color: var(--white_color);
+  background-color: var(--hover_color);
+
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ================================== End Global Rules =========================== */
+
+
+
+
+
+/* ======================================= Start upper info =============================== */
+.upper-info{
+  border-bottom: 1px solid var(--border-light-gray-color);
+  /* padding: 20px; */
+}
+.upper-info .single-info{
+  padding: 10px;
+  border-right: 1px solid var(--border-light-gray-color);
+  overflow-wrap: break-word;
+}
+
+.upper-info .single-info:not(:last-child){
+  border-bottom: 1px solid transparent;
+}
+
+@media  (max-width: 786px) {
+  .upper-info .single-info:not(:last-child){
+    border-bottom-color: var(--border-light-gray-color);
+    border-right: none;
+  }
+}
+
+.upper-info .upper-card{
+  text-align: center;
+}
+
+.cart-button-section{
+  padding: 10px;
+}
+
+
+/* ======================================= End upper info =============================== */
+
+
+/* ======================================= Start content my account section ============================ */
+.content-my-account-section{
+  padding: 20px 0;
+}
+.tabs{
+  padding: 20px;
+}
+.content-my-account-section .tab-button{
+  width: 100%;
+  background-color: var(--bg-gray-section);
+  border: none;
+  font-size: 18px;
+
+}
+.content-my-account-section .tab-button.active{
+  background-color: var(--main_color);
+  color: white;
+}
+
+.content-my-account-section  .tab-content{
+  background-color: var(--bg-gray-section);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header-cotent{
+  border-bottom: 1px solid var(--border-light-gray-color);
+  margin: 0 0 20px 0;
+}
+.header-cotent h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dashbord-card{
+  text-align: center;
+  border: 1px solid var(--border-light-gray-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dashbord-card-title{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* ======================================= End content my account section ============================ */

@@ -1,0 +1,123 @@
+[
+	{
+		"name": "perfumepalace",
+		"host": "192.185.118.4",
+		"port": 21,
+		"type": "ftp",
+		"username": "Hatem@perfumepalace.store",
+		"password": "01032907066Hatem",
+		"path": "/public_html/wp-content/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "perfumepalace subDomain",
+		"host": "192.185.118.4",
+		"port": 21,
+		"type": "ftp",
+		"username": "Hatem@xxx.perfumepalace.store",
+		"password": "01032907066Hatem",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "h1.abc",
+		"host": "91.108.96.235",
+		"port": 21,
+		"type": "ftp",
+		"username": "u945341450.HatimH1Ftp",
+		"password": "O0yNO3Y#nF$gei/u@06/02-2025",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "noradam",
+		"host": "ftp.noradam.com",
+		"port": 21,
+		"type": "ftp",
+		"username": "u768431241.hatimftp",
+		"password": "]L4[5nhvJX]c@12/09-2024",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "crm.abc",
+		"host": "ftp.abcdksa.com",
+		"port": 21,
+		"type": "ftp",
+		"username": "u945341450.hatimcrmftp",
+		"password": "F/dkYeqoo:1nY[1y@13/11-2024",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "pc.abc",
+		"host": "91.108.96.235",
+		"port": 21,
+		"type": "ftp",
+		"username": "u945341450.HatimPcFTP",
+		"password": "b*lWaV=~pB[ZotI3@06/02-2025",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "p.abc",
+		"host": "ftp.abcdksa.com",
+		"port": 21,
+		"type": "ftp",
+		"username": "u945341450.hatimftpp",
+		"password": "5@tODdPraHGoe:]e@29-12/2024",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "gs.nor",
+		"host": "195.200.10.126",
+		"port": 21,
+		"type": "ftp",
+		"username": "u768431241.hatimGooglftp",
+		"password": "k$tX[eCW~K9j]4Lo@06-02/2025",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "gs Live",
+		"host": "195.35.50.71",
+		"port": 21,
+		"type": "ftp",
+		"username": "u114211884.hatimftp",
+		"password": "pM@Y[tbF5US|iI~6",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "t3.noradam",
+		"host": "195.200.10.126",
+		"port": 21,
+		"type": "ftp",
+		"username": "u768431241.hatimt3ftp",
+		"password": "5u6b:!ZnUHwDVq#Z",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	},
+	{
+		"name": "t31.noradem",
+		"host": "195.200.10.126",
+		"port": 21,
+		"type": "ftp",
+		"username": "u768431241.Hatimt31FTP",
+		"password": "mvZx9rQb$V9[41#M@10-02/2025",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	}
+]
